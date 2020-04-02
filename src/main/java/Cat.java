@@ -1,9 +1,9 @@
-public class Man implements Essences {
+public class Cat implements Essences{
     String  name;
     int maxjump;
     int maxrun;
 
-    public Man (String name, int maxrun, int maxjump){
+    public Cat (String name, int maxrun, int maxjump){
         this.name = name;
         this.maxjump = maxjump;
         this.maxrun = maxrun;
@@ -26,5 +26,5 @@ public class Man implements Essences {
         }else {
             System.out.println(name + "  не может  прыгнуть " + wl.hight);
             return false;}
-        }
+    }
 }
