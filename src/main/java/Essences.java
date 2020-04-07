@@ -1,8 +1,6 @@
 public interface Essences {
-    String  name = null;
-    int maxjump = 0;
-    int maxrun = 0;
+    boolean run (Track tr);//методы которые необходимо будет реализовать
+    boolean jump (Wall wl);
 
-    void moving(Track trak);
-    void moving (Wall wall);
+
 }
